@@ -6,7 +6,7 @@ let result;
 
 if (userInput === null) {
   result = "Отменено пользователем!";
-} else if (isNaN(userInput[0]) || isNaN(userInput)) {
+} else if (isNaN(userInput)) {
   result = "Введите число.";
 } else {
   totalPrice = userInput * pricePerDroid;
